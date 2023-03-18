@@ -1,0 +1,74 @@
+.card-img-top {
+    width: auto;
+}
+
+.jumbotron {
+    margin-bottom: 5vh;
+    background-color: rgb(186, 186, 186);
+}
+
+.row {
+    margin-bottom: 10vh;
+}
+
+.welcome_text {
+    padding-left: 2vw;
+    padding-bottom: 2vh;
+}
+
+.navbar-collapse {
+    flex-basis: 100%;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: end;
+}
+
+.navbar>.container,
+.navbar>.container-fluid,
+.navbar>.container-lg,
+.navbar>.container-md,
+.navbar>.container-sm,
+.navbar>.container-xl,
+.navbar>.container-xxl {
+    display: flex;
+    flex-wrap: inherit;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (max-width: 767px) {
+
+    .jumbotron {
+        margin-bottom: 1.5vh;
+    }
+
+    .welcome_text {
+        padding-left: 2vw;
+        padding-bottom: 0.8vh;
+    }
+
+    .card-title {
+        font-size: 1rem;
+    }
+
+    .card-text {
+        font-size: 0.8rem;
+    }
+
+    .display-4 {
+        font-size: 1.5rem;
+
+    }
+
+    .lead {
+        font-size: 1rem;
+    }
+
+    .btn {
+        font-size: 0.8rem;
+    }
+
+    .navbar-brand {
+        font-size: 1rem;
+    }
+}
